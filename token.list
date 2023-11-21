@@ -1,0 +1,63 @@
+char* tokenArray[] = {
+   "UNKNOWN",//0
+   "NUM",		   //1
+   "STRING",     //2	   
+   "ID",	     	//3   
+   "INTERPOLATION",//4
+
+   "VAR",		   //5
+   "FUN",		   //6
+   "IF",		   //7
+   "ELSE",	     	//8   
+   "TRUE",	     	//9   
+   "FALSE",	     	  //10 
+   "WHILE",	     	   //11
+   "FOR",	     	   //12
+   "BREAK",	     	   //13
+   "CONTINUE",           //14
+   "RETURN",     	   //15
+   "NULL",	            //16
+   
+   "CLASS",	     	    //17
+   "THIS",	     	   //18
+   "STATIC",     	   //19
+   "IS",     	        //20
+   "SUPER",	     	   //21
+   "IMPORT",            //22
+    "FROM",         //23
+
+   "COMMA",		   
+   "COLON",		   
+   "LEFT_PAREN",	   
+   "RIGHT_PAREN",	   
+   "LEFT_BRACKET",	   
+   "RIGHT_BRACKET",	   
+   "LEFT_BRACE",	   
+   "RIGHT_BRACE",	   
+   "DOT",		   
+   "DOT_DOT",
+   
+   "ADD",		   
+   "SUB",		   
+   "MUL",		   
+   "DIV",		   
+   "MOD",		   
+   "ASSIGN",	   
+   "BIT_AND",	   
+   "BIT_OR",	   
+   "BIT_NOT",	   
+   "BIT_SHIFT_RIGHT",  
+   "BIT_SHIFT_LEFT",
+   
+   "LOGIC_AND",	   
+   "LOGIC_OR",	   
+   "LOGIC_NOT",	   
+   "EQUAL",		   
+   "NOT_EQUAL",	   
+   "GREATE",	   
+   "GREATE_EQUAL",	   
+   "LESS",		   
+   "LESS_EQUAL",	   
+   "QUESTION",	   
+   "EOF"
+};
